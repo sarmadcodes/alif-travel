@@ -22,10 +22,10 @@ const TESTIMONIALS = [
 
 export function Testimonials() {
   return (
-    <section className="py-20 px-4">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-4">What Our Travelers Say</h2>
-        <p className="text-gray-600 text-center mb-12">Real experiences from real adventurers</p>
+    <section className="py-20 px-4 bg-gray-400">
+      <div className="max-w-7xl mx-auto bg-gray-400">
+        <h2 className="text-4xl font-bold text-center mb-4 text-white">What Our Travelers Say</h2>
+        <p className="text-white text-center mb-12">Real experiences from real adventurers</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {TESTIMONIALS.map((testimonial) => (
