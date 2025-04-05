@@ -36,10 +36,10 @@ export function FeaturedTours() {
   const navigate = useNavigate();
   
   return (
-    <section className="py-20 px-4 bg-gray-50">
+    <section className="py-20 px-4 bg-gray-400">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-4">Featured Tours</h2>
-        <p className="text-gray-600 text-center mb-12">Discover our most popular adventures</p>
+        <h2 className="text-4xl font-bold text-center mb-4 text-white">Featured Tours</h2>
+        <p className="text-white text-center mb-11">Discover our most popular adventures</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {FEATURED_TOURS.map((tour) => (
