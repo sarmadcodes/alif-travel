@@ -28,7 +28,7 @@ export function Hero() {
         </div>
         <button 
           onClick={() => navigate('/tours')}
-          className="mt-8 px-6 py-3 bg-blue-600 text-white rounded-full text-lg font-semibold hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 animate-fade-in-up"
+          className="mt-8 px-6 py-3 bg-gray-600 text-white rounded-full text-lg font-semibold hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 animate-fade-in-up"
         >
           Explore Tours
         </button>
