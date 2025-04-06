@@ -43,8 +43,8 @@ export function Navbar() {
   
   const linkClasses = `transition-colors duration-200 ${
     isHomePage
-      ? (isScrolled ? 'text-white hover:text-blue-200' : 'text-white hover:text-blue-200')
-      : 'text-black hover:text-blue-600'
+      ? (isScrolled ? 'text-white hover:text-gray-200' : 'text-white hover:text-gray-200')
+      : 'text-black hover:text-gray-600'
   }`;
   
   return (
@@ -79,9 +79,9 @@ export function Navbar() {
             <button className={`px-4 py-2 rounded-full ${
               isHomePage
                 ? (isScrolled
-                  ? 'bg-blue-600 text-white hover:bg-blue-700'
-                  : 'bg-white text-blue-600 hover:bg-blue-50')
-                : 'bg-blue-600 text-white hover:bg-blue-700'
+                  ? 'bg-gray-600 text-white hover:bg-gray-700'
+                  : 'bg-white text-black-600 hover:bg-black-50')
+                : 'bg-gray-600 text-white hover:bg-gray-700'
             } transition-colors`}>
               Book Now
             </button>
@@ -112,7 +112,7 @@ export function Navbar() {
                   {link.label}
                 </Link>
               ))}
-              <button className="w-full px-3 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+              <button className="w-full px-3 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-700">
                 Book Now
               </button>
             </div>
