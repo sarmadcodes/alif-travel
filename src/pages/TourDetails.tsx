@@ -91,32 +91,32 @@ export function TourDetails() {
           <div className="lg:col-span-1">
             <div className="bg-white rounded-xl p-6 shadow-lg sticky top-24">
               <div className="text-center mb-6">
-                <p className="text-4xl font-bold text-blue-600">${tour.price}</p>
+                <p className="text-4xl font-bold text-black-600">${tour.price}</p>
                 <p className="text-gray-600">per person</p>
               </div>
 
               <div className="space-y-4 mb-6">
                 <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
                   <div className="flex items-center">
-                    <Calendar className="h-5 w-5 text-blue-600 mr-2" />
+                    <Calendar className="h-5 w-5 text-black-600 mr-2" />
                     <span>Duration</span>
                   </div>
                   <span className="font-semibold">{tour.duration} days</span>
                 </div>
                 <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
                   <div className="flex items-center">
-                    <MapPin className="h-5 w-5 text-blue-600 mr-2" />
+                    <MapPin className="h-5 w-5 text-black-600 mr-2" />
                     <span>Destination</span>
                   </div>
                   <span className="font-semibold">{tour.destination}</span>
                 </div>
               </div>
 
-              <button className="w-full py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors mb-4">
+              <button className="w-full py-3 bg-gray-600 text-white rounded-lg font-semibold hover:bg-gray-700 transition-colors mb-4">
                 Book Now
               </button>
               
-              <button className="w-full py-3 border-2 border-blue-600 text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
+              <button className="w-full py-3 border-2 border-gray-600 text-black-600 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
                 Ask a Question
               </button>
             </div>
